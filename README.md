@@ -1,4 +1,5 @@
 💼 Payroll Management System
+
 A comprehensive and secure Payroll Management System built to simplify and automate the end-to-end payroll process, reducing manual workload and minimising errors. Designed for small to mid-sized organisations, this system ensures accurate salary computation, timely payments, and a seamless experience for administrators and employees.
 
 ✨ Key Features
