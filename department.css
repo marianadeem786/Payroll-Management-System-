@@ -1,0 +1,166 @@
+/* CSS styles for the entire page */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height of the body to 100% of the viewport height */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Set background color */
+}
+
+header {
+    background-color: #007bff; /* Set header background color */
+    color: #fff; /* Set header text color */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+        nav ul li a {
+            font-weight: 900;
+            font-style: italic;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+main {
+    flex: 1; /* Grow to fill remaining space */
+    padding: 20px;
+}
+
+footer {
+    margin-top: auto; /* Push footer to the bottom */
+    background-color: #333; /* Set footer background color */
+    color: #fff; /* Set footer text color */
+    padding: 10px;
+    text-align: center;
+}
+
+.department-list {
+    margin-top: 20px;
+}
+
+    .department-list table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .department-list th, .department-list td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+/* CSS styles for the entire page */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height of the body to 100% of the viewport height */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Set background color */
+}
+
+header {
+    background-color: #007bff; /* Set header background color */
+    color: #fff; /* Set header text color */
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Fix the header position */
+    top: 0; /* Position the header at the top */
+    width: 100%; /* Set the width to 100% */
+    z-index: 1000; /* Ensure the header appears above other content */
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+        nav ul li a {
+            font-weight: 900;
+            font-style: italic;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+main {
+    flex: 1; /* Grow to fill remaining space */
+    padding: 20px;
+    margin-top: 80px; /* Adjust margin to account for fixed header */
+}
+
+footer {
+    margin-top: auto; /* Push footer to the bottom */
+    background-color: #333; /* Set footer background color */
+    color: #fff; /* Set footer text color */
+    padding: 10px;
+    text-align: center;
+}
+
+.department-list {
+    margin-top: 20px;
+}
+
+    .department-list table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .department-list th, .department-list td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .department-list th {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .department-list tr:hover {
+        background-color: #f2f2f2;
+    }
+
+
+    .department-list th {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .department-list tr:hover {
+        background-color: #f2f2f2;
+    }
